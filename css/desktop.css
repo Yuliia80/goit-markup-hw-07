@@ -3,7 +3,6 @@
       max-width: 1158px;
     }
 
-    
 
     .section-hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-desktop.jpg); 
@@ -22,8 +21,18 @@
       margin-bottom: 48px;
     }
 
-
-
+    .section-header {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      }
+      .up {
+        margin-right: 76px;
+        } 
+    .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    } 
 
 
 
@@ -67,8 +76,7 @@
     font-weight: 400;
   } 
      
-   
-
+  
 
   .section-doing {
     display: block;
