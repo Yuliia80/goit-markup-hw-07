@@ -1,0 +1,126 @@
+@media screen and (min-width: 768px) {
+    .container { 
+      max-width: 768px;
+    }
+
+
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-tablet.jpg); 
+    }
+
+     @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .section-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-tablet@2x.jpg); 
+      } 
+     }
+     .hero-title {
+       max-width: 496px;
+       min-height: 120px;
+       font-weight: 700;
+       font-size: 56px;
+       line-height: 1.07;
+       margin-bottom: 36px;
+     }
+
+
+ 
+
+
+
+
+
+    .about-list {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .about-item {
+     width: calc((100% - 24px) / 2);
+     margin-right: 24px;
+    }
+    .about-item:nth-child(2n) {
+      margin-right: 0;
+    }
+    .about-item:last-child { 
+         margin-bottom: 72px; 
+    }
+    .about-subtitle {
+      text-align: left;
+    }
+
+
+
+    .team-container {
+      padding-left: 108px;
+      padding-right: 108px;
+    }
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .team-item {
+      width: calc((100% - 24px) / 2);
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .team-item:last-child {
+      margin-bottom: 72px;
+    }
+    .team-item:nth-child(2n + 1) {
+      margin-right: 24px;
+    }
+    .team-item:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+      }
+
+
+   
+    .customers-list {
+      /* width: calc((100% - 32px) / 3);  */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+    }
+    .customers-item-boxicon {
+      width: 168px;
+    }
+    .customers-icon {
+      width: 104px;
+    }
+
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 108px;
+    }
+    .footer-oneblock {
+      margin-left: 0;
+      margin-right: 24px;
+    }
+    .down {
+      text-align: left;
+    }
+    .footer-text-social {
+      text-align: left;
+    }
+    .input-footer {
+      width: 264px;
+      margin-bottom: 0;
+    }
+
+    .footer-formblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  .footer-submit-btn {
+    margin: 0;
+  }
+} 
