@@ -6,4 +6,17 @@
     .input-footer {
       width: 398px;
     }
+    .modal {
+      width: 392px;
+    }
+    .modal-textarea {
+      width: 360px;
+    }
+    .modal-input {
+      width: 360px;
+    }
+    .modal-label-checkbox {
+      font-size: 12px;
+    }
+   
   }
